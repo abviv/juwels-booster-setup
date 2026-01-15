@@ -43,7 +43,7 @@ srun --pty bash
 - Resume the session later with `tmux attach -t vllm-profile`
 - Keep processes running even if you disconnect
 
-⚠️ **Important:** Closing the terminal window that started the `salloc` command will terminate your allocation and release the compute resources. Use tmux to detach safely instead.
+⚠️ **Important:** Closing the terminal window that started the `srun` command will terminate your allocation and release the compute resources. Use tmux to detach safely instead.
 
 ### Quick tmux Reference
 
